@@ -1,0 +1,36 @@
+.header {
+  padding: 5px 20px;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.2);
+  margin-bottom: 20px;
+  .left_header {
+    border-right: 1px solid #000;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+  }
+  .right_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .username {
+      font-size: 15px;
+      font-weight: 700;
+      color: #111;
+      margin-left: 20px;
+    }
+    .user_image {
+      border-radius: 50px;
+    }
+  }
+}
+.logout {
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #eee;
+  padding:  5px;
+  cursor: pointer;
+}
